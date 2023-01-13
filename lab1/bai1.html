@@ -1,35 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Lab 1 Bài 1</title>
-    <style>
-      #target {
-        width: 60px;
-        height: 60px;
-        background: #33691e;
-      }
-    </style>
-  </head>
-  <body>
-    <div id="target"></div>
-    <div style="margin-top: 10px;">
-      <a href="bai2.html">Bài 2</a>
-      <a href="bai3.html">Bài 3</a>
-      <a href="bai4.html">Bài 4</a>
-      <a href="bai5.html">Bài 5</a>
-      <a href="bai6.html">Bài 6</a>
-    </div>
-  </body>
-  <script>
-    var target = document.querySelector("#target");
-    target.onmouseover = function () {
-      target.style.background = "#ff1493";
-    };
-    target.onmouseout = function () {
-      target.style.background = "#33691e";
-    };
-  </script>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lab 1 Bài 1</title>
+  <style>
+    #target {
+      width: 60px;
+      height: 60px;
+      background: #33691e;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="target"></div>
+  <div style="margin-top: 10px;">
+    <a href="bai2.html">Bài 2</a>
+    <a href="bai3.html">Bài 3</a>
+    <a href="bai4.html">Bài 4</a>
+    <a href="bai5.html">Bài 5</a>
+    <a href="bai6.html">Bài 6</a>
+  </div>
+</body>
+<script>
+  var target = document.querySelector("#target");
+  target.onmouseover = function () {
+    target.style.background = "#ff1493";
+  };
+  target.onmouseout = function () {
+    target.style.background = "#33691e";
+  };
+</script>
+
 </html>
