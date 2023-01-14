@@ -36,10 +36,7 @@
   ];
   var target = document.querySelector("#target");
   var user_list = users.map(function (user) {
-    return `
-                    <li class="user_item">${user.id
-      }-${user.name}-${user.gender == 1 ? "male" : "female"}</li>
-                `;
+    return `<li class="user_item">${user.id}-${user.name}-${user.gender == 1 ? "male" : "female"}</li>`;
   });
   target.innerHTML = user_list.join("");
 </script>
